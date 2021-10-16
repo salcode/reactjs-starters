@@ -1,5 +1,7 @@
 import './App.css';
 
+import CharacterList from './components/CharacterList';
+
 const muppetsData = [
   {
     name: 'Fozzie Bear',
@@ -70,6 +72,7 @@ function App() {
       <header className="App-header">
         <h1>ReactJS Starter</h1>
       </header>
+      <CharacterList />
       <footer className="App-footer">
         <p>Starter created by <a href="https://github.com/salcode">salcode</a></p>
       </footer>
