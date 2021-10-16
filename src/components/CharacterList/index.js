@@ -1,5 +1,7 @@
-export default function CharacterList() {
+export default function CharacterList({
+  data,
+}) {
   return (
-    'This is the CharacterList component'
+    `There are ${data.length} characters to display in the CharacterList component`
   );
 }

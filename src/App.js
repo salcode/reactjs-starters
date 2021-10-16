@@ -72,7 +72,9 @@ function App() {
       <header className="App-header">
         <h1>ReactJS Starter</h1>
       </header>
-      <CharacterList />
+      <CharacterList
+        data={muppetsData}
+      />
       <footer className="App-footer">
         <p>Starter created by <a href="https://github.com/salcode">salcode</a></p>
       </footer>
