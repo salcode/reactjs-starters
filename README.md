@@ -6,6 +6,19 @@ I am always encouraging developers to build something with ReactJS, as I believe
 
 This project is built-on the amazing [Create React App](https://github.com/facebook/create-react-app), which allows a developer to get a React App up and running quickly. On top of this ready to go blank React App, I've added some starting information.
 
+## How to Use this Project
+
+This Git respository contains different branches that are meant to start as starting points for builiding something in ReactJS. It is recommended you branch off one of these starter branches and build on top of it (you might want to use your initials as part of your new branch name).
+
+e.g.
+
+```
+git switch 00-muppets-data
+git switch -c 00-muppets-data-sf
+
+... and build your project on this new branch
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
