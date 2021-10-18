@@ -19,6 +19,12 @@ git switch -c 00-muppets-data-sf
 ... and build your project on this new branch
 ```
 
+### Starter Branches
+
+#### `00-muppets-data`
+
+The `00-muppets-data` branch contains a data object with information about some of the Muppets and the people who perform them. A good place to start on this branch is to build out component(s) to render the data.
+
 ## Available Scripts
 
 In the project directory, you can run:
