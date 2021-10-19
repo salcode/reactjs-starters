@@ -25,6 +25,10 @@ git switch -c 00-muppets-data-sf
 
 The `00-muppets-data` branch contains a data object with information about some of the Muppets and the people who perform them. A good place to start on this branch is to build out component(s) to render the data.
 
+#### `01-countdown`
+
+The `01-countdown` branch contains a `Countdown` component, which stores a number in state and counts to zero. A good place to start on this branch, would be to introduce a new component that receives the `counter` value as a prop and renders "The End" when the counter reaches zero. Another idea is to print "odd" or "even" based on the current value of the counter.
+
 ## Available Scripts
 
 In the project directory, you can run:
