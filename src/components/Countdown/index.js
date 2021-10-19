@@ -12,7 +12,9 @@ export default function Countdown() {
         return;
       }
       setTimeout(
-        () => setCounter(counter - 1),
+        () => setCounter(
+          (n) => n - 1
+        ),
         500
       );
     },
