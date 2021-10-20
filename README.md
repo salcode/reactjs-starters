@@ -29,6 +29,13 @@ The `00-muppets-data` branch contains a data object with information about some 
 
 The `01-countdown` branch contains a `Countdown` component, which stores a number in state and counts to zero. A good place to start on this branch, would be to introduce a new component that receives the `counter` value as a prop and renders "The End" when the counter reaches zero. Another idea is to print "odd" or "even" based on the current value of the counter.
 
+#### `02-redlight-greenlight`
+
+The `02-redlight-greenlight` branch contains a stateless `RedlightGreenlight` component, which receives two props (a boolean value and a function). A good place to start on this branch would be to:
+
+1. Create a visual indicator of whether the boolean value is `true` or `false` (this could be as simple as outputting the words "true" or "false")
+2. Build a UI to allow the user to change the boolean value
+
 ## Available Scripts
 
 In the project directory, you can run:
