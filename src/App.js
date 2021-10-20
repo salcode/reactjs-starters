@@ -5,6 +5,9 @@ import RedlightGreenlight from './components/RedlightGreenlight';
 
 function App() {
   const [go, setGo] = useState(false);
+  const toggleGo = () => setGo(
+    (oldGo) => ! oldGo
+  );
   return (
     <div className="App">
       <header className="App-header">
