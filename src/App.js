@@ -1,6 +1,8 @@
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [go, setGo] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
