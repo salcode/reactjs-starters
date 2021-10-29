@@ -3,6 +3,8 @@ import {
   useState,
 } from 'react';
 
+import BlogPosts from '../BlogPosts';
+
 export default function RemoteApiBlogPosts() {
   const [blogPosts, setBlogPosts] = useState([]);
 
@@ -18,6 +20,9 @@ export default function RemoteApiBlogPosts() {
   }, []);
 
   return (
-    <h2>RemoteApiBlogPosts stub</h2>
+    <>
+      <h2>Blog Posts</h2>
+      <BlogPosts />
+    </>
   );
 }

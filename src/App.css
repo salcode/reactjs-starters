@@ -11,3 +11,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.blog-posts {
+  list-style: none;
+  padding: 0;
+}
