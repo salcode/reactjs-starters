@@ -1,9 +1,11 @@
-export default function BlogPosts() {
+export default function BlogPosts({ posts }) {
   return (
     <ul className="blog-posts">
-      <li>Blog</li>
-      <li>Posts</li>
-      <li>Stub</li>
+      {
+        posts.map((post) => (
+          <li>{post.title.rendered}</li>
+        ))
+      }
     </ul>
   );
 }

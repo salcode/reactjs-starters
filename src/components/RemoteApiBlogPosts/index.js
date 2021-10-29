@@ -22,7 +22,9 @@ export default function RemoteApiBlogPosts() {
   return (
     <>
       <h2>Blog Posts</h2>
-      <BlogPosts />
+      <BlogPosts
+        posts={blogPosts}
+      />
     </>
   );
 }
