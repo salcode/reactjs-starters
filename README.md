@@ -36,6 +36,18 @@ The `02-redlight-greenlight` branch contains a stateless `RedlightGreenlight` co
 1. Create a visual indicator of whether the boolean value is `true` or `false` (this could be as simple as outputting the words "true" or "false")
 2. Build a UI to allow the user to change the boolean value
 
+#### `03-remote-api-request`
+
+The `03-remote-api-request` branch contains a `RemoteApiBlogPosts` component that retrieves the most recent blog posts from Sal's blog and passes them to the `BlogPosts` component to be rendered.
+
+Note: Sal's blog sets the `access-control-allow-origin` header, which allows us to use the data. Often sites will not set this value. In those cases, we need to use a proxy to retrieve the data.
+
+A good place to start on this branch would be to:
+
+1. Improve how the blog posts are rendered (e.g. make each blog post a link)
+2. Change the hardcoded URL to Sal's blog to something that causes an error (e.g. `invalid://`) and add code to catch this error (so the app does not crash)
+3. Display a user-friendly error message when the above error occurs (e.g. you could add a new state value to the component for the error message)
+
 ## Available Scripts
 
 In the project directory, you can run:
