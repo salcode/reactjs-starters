@@ -11,12 +11,13 @@ export default function Countdown() {
       if (counter <= 0) {
         return;
       }
-      setTimeout(
+      const timeoutId = setTimeout(
         () => setCounter(
           (n) => n - 1
         ),
         500
       );
+      return () => clearTimeout(timeoutId);
     },
     [counter]
   );
